@@ -2,6 +2,11 @@
 ## Team: MISIS FOUND HACK
 ## Модель прогнозирования продуктового кластера клиента
 
+### Ссылки
+[blend submissions](https://drive.google.com/drive/folders/1VvkqH99kXWkUAxdBELfCksp8SyzMfHVC)  
+[data](https://drive.google.com/drive/u/0/folders/1yK1Q_FYScMvICZnF-ji1QdeLOvQdzkf8)  
+[Google Disk с артефактами решения](https://drive.google.com/drive/folders/1bAnDJcrDp16jwHP7CU-HLBqzCqOZZAOL)  
+
 ![](assets/arch.jpeg)
 
 1) В ```knn_and_mlp.ipynb``` в начале нужно запустить ячейки с созданием ```train_ae_v``` и ```test_ae_v```
