@@ -1,4 +1,6 @@
-## Архитектура
+# IT Purple Hack - Alpha Bank
+## Team: MISIS FOUND HACK
+## Модель прогнозирования продуктового кластера клиента
 
 ![](assets/arch.jpeg)
 
