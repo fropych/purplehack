@@ -1,0 +1,17 @@
+model_params:
+  hidden_size: 4096
+  num_subspaces: 64
+  embed_dim: 64
+  num_heads: 4
+  dropout: 0
+  feedforward_dim: 16
+  emphasis: 0.75
+  mask_loss_weight: 2
+  encoder_fdim: 128
+  task_weights: [10, 40]
+
+batch_size: 2048
+init_lr: 0.003
+lr_decay: 0.95
+max_epochs: 2
+probas: [0.95, 0.8]
