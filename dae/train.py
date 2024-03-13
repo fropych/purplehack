@@ -152,7 +152,7 @@ def main(cfg: DictConfig) -> None:
     train_dae(model, noise_maker, optimizer, scheduler, train_dl, cfg.max_epochs)
 
     features = extract_features(model, dataset, cfg.batch_size)
-    np.save("dae_features.npy", features.numpy())
+    np.save("final_embeds.npy", features.numpy())
 
 
 if __name__ == "__main__":
