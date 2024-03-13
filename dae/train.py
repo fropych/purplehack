@@ -124,13 +124,11 @@ def main(cfg: DictConfig) -> None:
         None
     """
     X, n_cats, n_nums = get_data(
-        "data/train_data.pqt",
-        "data/train_data.pqt",
-        [
-            "ogrn_month",
-        ],
+        "data/train_ae_v.pqt",
+        "data/test_ae_v.pqt",
     )
-
+    print(f'Training on: {n_cats} categorical features, {n_nums} numeric features')
+    
     repeats = [n_cats, n_nums]
     probas = cfg.probas
     swap_probas = sum([[p] * r for p, r in zip(probas, repeats)], [])
