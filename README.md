@@ -2,12 +2,12 @@
 ## Team: MISIS FOUND HACK
 ## Модель прогнозирования продуктового кластера клиента
 
+![](assets/arch.jpeg)
+
 ### Ссылки
 [blend submissions](https://drive.google.com/drive/folders/1VvkqH99kXWkUAxdBELfCksp8SyzMfHVC)  
 [data](https://drive.google.com/drive/u/0/folders/1yK1Q_FYScMvICZnF-ji1QdeLOvQdzkf8)  
 [Google Disk с артефактами решения](https://drive.google.com/drive/folders/1bAnDJcrDp16jwHP7CU-HLBqzCqOZZAOL)  
-
-![](assets/arch.jpeg)
 
 1) В ```knn_and_mlp.ipynb``` в начале нужно запустить ячейки с созданием ```train_ae_v``` и ```test_ae_v```
 2) ```python  dae/train.py```
@@ -17,7 +17,11 @@
     - ```test_cluster_kmeans12.pqt```
     - ```mlp_submission.csv```
 5) Далее подаем получившиеся паркеты в ```vanya.ipynb```
+6) ```kfold_auto_blend.ipynb```
+7) ```smote.ipynb```
+8) ```blend.ipynb```  
    
+```Все полученные данные есть в ссылках```
 
 ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
