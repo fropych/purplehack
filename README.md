@@ -5,10 +5,10 @@
 ![](assets/arch.jpeg)
 
 ### Ссылки
-[blend submissions](https://drive.google.com/drive/folders/1VvkqH99kXWkUAxdBELfCksp8SyzMfHVC) - отдельные предсказания моделей в CSV, которые используются в бленде 
-[data](https://drive.google.com/drive/u/0/folders/1yK1Q_FYScMvICZnF-ji1QdeLOvQdzkf8) - сырые и промежуточные данные, которые используются для обучения моделей
-[Google Disk с артефактами решения](https://drive.google.com/drive/folders/1bAnDJcrDp16jwHP7CU-HLBqzCqOZZAOL) - 
-[Autoencoder Embeddings](https://disk.yandex.ru/d/-_FoTikiwEOV9A) - эмбеддинги пользователей, полученные с помощью автоэнкодера
+* [blend submissions](https://drive.google.com/drive/folders/1VvkqH99kXWkUAxdBELfCksp8SyzMfHVC) - отдельные предсказания моделей в CSV, которые используются в бленде 
+* [data](https://drive.google.com/drive/u/0/folders/1yK1Q_FYScMvICZnF-ji1QdeLOvQdzkf8) - сырые и промежуточные данные, которые используются для обучения моделей
+* [Google Disk с артефактами решения](https://drive.google.com/drive/folders/1bAnDJcrDp16jwHP7CU-HLBqzCqOZZAOL) - 
+* [Autoencoder Embeddings](https://disk.yandex.ru/d/-_FoTikiwEOV9A) - эмбеддинги пользователей, полученные с помощью автоэнкодера
 
 1) ```make_test_filled.ipynb```
 1) В ```knn_and_mlp.ipynb``` в начале нужно запустить ячейки с созданием ```train_ae_v``` и ```test_ae_v```
