@@ -10,6 +10,7 @@
 [Google Disk с артефактами решения](https://drive.google.com/drive/folders/1bAnDJcrDp16jwHP7CU-HLBqzCqOZZAOL)  
 [Autoencoder Embeddings](https://disk.yandex.ru/d/-_FoTikiwEOV9A)
 
+1) ```make_test_filled.ipynb```
 1) В ```knn_and_mlp.ipynb``` в начале нужно запустить ячейки с созданием ```train_ae_v``` и ```test_ae_v```
 2) ```python  dae/train.py```
 3) Дальше запускать ячейки в ```knn_and_mlp.ipynb```
